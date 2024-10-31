@@ -16,3 +16,5 @@ if ! grep -q "source $CUSTOM_ZSHRC" "$DEFAULT_ZSHRC"; then
 else
   echo "Custom .zshrc already sourced."
 fi
+
+git config --global push.default current
