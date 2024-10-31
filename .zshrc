@@ -1,6 +1,7 @@
 
 
 ZSH_THEME="amuse"
+source $ZSH/oh-my-zsh.sh
 
 alias cls="clear && printf '\e[3J'"
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
