@@ -1,6 +1,5 @@
 
-
-ZSH_THEME="amuse"
+ZSH_THEME="jonathan"
 source $ZSH/oh-my-zsh.sh
 
 alias cls="clear && printf '\e[3J'"

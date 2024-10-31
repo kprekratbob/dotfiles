@@ -1,9 +1,15 @@
 #!/bin/bash
 
+git clone --recursive https://github.com/philip82148/simplerich-zsh-theme
+cp ./simplerich-zsh-theme/simplerich.zsh-theme ~/.oh-my-zsh/themes/
+
 # Path to Gitpod's default .zshrc
 DEFAULT_ZSHRC="/home/gitpod/.zshrc"
 # Path to your custom .zshrc in your dotfiles repo
 CUSTOM_ZSHRC="/home/gitpod/.dotfiles/.zshrc"
+
+ZSH_THEME="simplerich"
+source path/to/where_u_want_to_clone_the_repo/simplerich-zsh-theme/zsh-git-prompt/zshrc.sh
 
 # Check if custom .zshrc is already sourced in the default .zshrc
 if ! grep -q "source $CUSTOM_ZSHRC" "$DEFAULT_ZSHRC"; then
