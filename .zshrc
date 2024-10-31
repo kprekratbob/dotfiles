@@ -1,7 +1,4 @@
-# Source Gitpod’s default .zshrc
-if [ -f /home/gitpod/.zshrc ]; then
-  source /home/gitpod/.zshrc
-fi
+
 
 ZSH_THEME="amuse"
 
