@@ -1,8 +1,5 @@
 #!/bin/bash
 
-git clone --recursive https://github.com/philip82148/simplerich-zsh-theme
-cp ./simplerich-zsh-theme/simplerich.zsh-theme ~/.oh-my-zsh/themes/
-
 # Path to Gitpod's default .zshrc
 DEFAULT_ZSHRC="/home/gitpod/.zshrc"
 # Path to your custom .zshrc in your dotfiles repo
