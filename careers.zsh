@@ -4,7 +4,7 @@
 # Check if the SUBDOMAIN variable is set
 if [[ -z "$subdomain" ]]; then
     echo "❌ Error: SUBDOMAIN environment variable is not set!"
-    echo "Usage: subdomain=bob ./update_hosts.zsh"
+    echo "Usage: subdomain=bob ./careers.zsh"
     exit 1
 fi
 

@@ -51,5 +51,5 @@ careers() {
         echo "Usage: careers sub.example.com"
         return 1
     fi
-    SUBDOMAIN="$1" ~/.dotfiles/careers.zsh
+    subdomain="$1" ~/.dotfiles/careers.zsh
 }
