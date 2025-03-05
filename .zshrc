@@ -7,7 +7,6 @@ alias cls="clear && printf '\e[3J'"
 alias bob="npm run start"
 alias core="npm run core"
 alias hiring="npm run hiring"
-alias careers="subdomain=demostructionats npm run careers"
 
 alias story="npm run storybook"
 alias tools="npm run bob-tools"
@@ -44,3 +43,13 @@ done
 result="${result%"${result##*[![:space:]]}"}"
 title="\-\- %F{blue}GIT ALIASES%f \-\-"
 alias galias="print -P '$title\n$result';"
+
+
+careers() {
+    if [[ -z "$1" ]]; then
+        echo "❌ Error: Please provide a subdomain!"
+        echo "Usage: careers sub.example.com"
+        return 1
+    fi
+    SUBDOMAIN="$1" ~/.dotfiles/careers.zsh
+}
